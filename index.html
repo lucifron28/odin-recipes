@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: black;
+            color: white;
+        }
+        h1 {
+            text-align: center;
+        }
+        a {
+            display: block;
+            margin-bottom: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Additional styles */
+        .recipe-link {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .recipe-link:hover {
+            color: white;
+        }
+        .recipe-list {
+            margin: 0 auto;
+            text-align: center; /* Added property to center the div */
+        }
+        .recipe-list a{
+            border: 2px solid #fff;
+            border-width: 5px;
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/CapreseStuffedAvocado.html" target="_blank">Caprese Stuffed Avocado</a> <br>
-    <a href="recipes/pasta.html" target="_blank">One-Pan Pasta</a><br>
-    <a href="recipes/pesto_pasta.html" target="_blank">Pesto Pasta</a> 
+    <div class="recipe-list">
+        <h1>Odin Recipes</h1>
+        <a href="recipes/CapreseStuffedAvocado.html" target="_blank" class="recipe-link">Caprese Stuffed Avocado</a>
+        <a href="recipes/pasta.html" target="_blank" class="recipe-link">One-Pan Pasta</a>
+        <a href="recipes/pesto_pasta.html" target="_blank" class="recipe-link">Pesto Pasta</a>
+    </div>
 </body>
 </html>
